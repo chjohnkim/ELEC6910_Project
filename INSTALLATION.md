@@ -1,8 +1,8 @@
-==================================================================================================
+
 ## VREP_ROS Simulation Environment Instruction
 This is a method to setup V-REP in ROS Envronment. 
 
-==================================================================================================
+
 ## Envrironment
 This setup was tested with the following versions: 
 [ROS: Kinetic](http://wiki.ros.org/kinetic)
@@ -12,7 +12,7 @@ Plugins(Please git clone them from the latest master):
 [vrep_ros_interface](https://github.com/CoppeliaRobotics/v_repExtRosInterface)
 Platform: Ubuntu 16.04 LTS
 
-==================================================================================================
+
 ## Tutorial
 Here are some useful links:
 [Ros Bridge Installation test](http://wiki.ros.org/vrep_ros_bridge#Installation_test)
@@ -20,7 +20,6 @@ Note: Since installation of vrep_ros_bridge uses catkin_make, and ROS Interface 
 [Create a temporary catkin workspace for ROS Interface](http://analuciacruz.me/articles/RosInterface_kinetic/).
 
 
-==================================================================================================
 ## V-REP Installation
 1. Download the VREP installation file
 [V-REP: 3.5.0 PRO EDU](http://www.coppeliarobotics.com/downloads.html)
@@ -29,7 +28,7 @@ Note: Since installation of vrep_ros_bridge uses catkin_make, and ROS Interface 
 >> cd ~/vrep
 >> ./vrep.sh 
 
-==================================================================================================
+
 ## V-Rep Ros Bridge Plugin Installation
 [V-Rep ROS Bridge](https://github.com/lagadic/vrep_ros_bridge)
 1. Go in the src folder of your catkin workspace in catkin_ws/src via terminal
@@ -59,7 +58,7 @@ Note: Since installation of vrep_ros_bridge uses catkin_make, and ROS Interface 
 11. In order to test if the installation was successful, go to: [vrep_ros_bridge Wiki](http://wiki.ros.org/vrep_ros_bridge#Installation_test)
 
 
-==================================================================================================
+
 ## ROS Interface Plugin for V-REP Installation 
 [vrep_ros_interface](https://github.com/CoppeliaRobotics/v_repExtRosInterface)
 [Create a temporary catkin workspace for ROS Interface](http://analuciacruz.me/articles/RosInterface_kinetic/)
@@ -81,7 +80,7 @@ Note: Since installation of vrep_ros_bridge uses catkin_make, and ROS Interface 
 8. Copy the library in your V-REP installation folder. 
 devel/lib/libv_repExtRosInterface.so > cp > VREP_ROOT
 
-==================================================================================================
+
 ## Some things to keep in mind during instllation: 
 1. The export VREP_ROOT may need to be debugged in the .bashrc file. Try cd-ing and echo-ing to the VREP_ROOT until it works.  
 >> export VREP_ROOT=/ChangeWithyourPathToVrep/
@@ -95,5 +94,3 @@ libv_repExtRosInterface.so (from compiling ROS Interface Plugin)
 [Eigen3]
 >> sudo apt install libeigen3-dev
 
-==================================================================================================
-==================================================================================================
