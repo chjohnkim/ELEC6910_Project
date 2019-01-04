@@ -1,5 +1,6 @@
 # ELEC6910R Robotic Perception & Learning Project
 This is instructions for simulating a robot in VREP-ROS for ELEC6910 Project.
+
 To watch video, see: [here](https://www.youtube.com/watch?v=-2qd4YWz_E0&t=)
 
 ## Getting Started
